@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online CV</title>
+    <title>John Doe's Online CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>John Doe</h1>
-        <p>Web Developer</p>
+        <div class="header-content">
+            <!-- Profile Image -->
+            <div class="profile-image">
+                <img src="your-image.jpg" alt="John Doe" id="profile-pic">
+            </div>
+            <div class="profile-info">
+                <h1>John Doe</h1>
+                <p>Web Developer</p>
+                <p class="location">New York, USA</p>
+            </div>
+        </div>
     </header>
 
     <section id="personal-info">
@@ -18,7 +27,7 @@
         <ul>
             <li><strong>Email:</strong> johndoe@example.com</li>
             <li><strong>Phone:</strong> (123) 456-7890</li>
-            <li><strong>Location:</strong> New York, USA</li>
+            <li><strong>Website:</strong> www.johndoe.com</li>
         </ul>
     </section>
 
@@ -29,14 +38,7 @@
             <li>JavaScript</li>
             <li>React.js</li>
             <li>Node.js</li>
-            <li>Python</li>
-        </ul>
-    </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>BS in Computer Science</strong>, XYZ University, 2015-2019</li>
+            <li>Git & GitHub</li>
         </ul>
     </section>
 
@@ -44,9 +46,16 @@
         <h2>Work Experience</h2>
         <ul>
             <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
-            <p>Developed and maintained web applications using React.js, Node.js, and other modern technologies.</p>
+            <p>Developing web applications using React.js and Node.js. Creating responsive websites and APIs.</p>
             <li><strong>Junior Web Developer</strong> - XYZ Corp (2019-2020)</li>
-            <p>Assisted with front-end development, improving user interfaces and implementing new features.</p>
+            <p>Assisted in front-end development using HTML, CSS, and JavaScript. Improved website performance and SEO.</p>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>BS in Computer Science</strong> - XYZ University (2015-2019)</li>
         </ul>
     </section>
 
