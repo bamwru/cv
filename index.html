@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Online CV</title>
-    <link rel="stylesheet" href="modern-style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,58 +13,58 @@
         <p>Web Developer</p>
     </header>
 
-    <div class="container">
-        <div class="main-content">
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <h2>Contact Info</h2>
-                <ul>
-                    <li><strong>Email:</strong> johndoe@example.com</li>
-                    <li><strong>Phone:</strong> (123) 456-7890</li>
-                    <li><strong>Location:</strong> New York, USA</li>
-                </ul>
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <ul>
+            <li><strong>Email:</strong> johndoe@example.com</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Location:</strong> New York, USA</li>
+        </ul>
+    </section>
 
-                <h2>Skills</h2>
-                <ul class="skills-list">
-                    <li>HTML & CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                    <li>Python</li>
-                </ul>
-            </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+        </ul>
+    </section>
 
-            <!-- Main content (Card) -->
-            <div class="card">
-                <h2>Work Experience</h2>
-                <ul>
-                    <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
-                    <p>Developed and maintained web applications using React.js, Node.js, and other modern technologies.</p>
-                    <li><strong>Junior Web Developer</strong> - XYZ Corp (2019-2020)</li>
-                    <p>Assisted with front-end development, improving user interfaces and implementing new features.</p>
-                </ul>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>BS in Computer Science</strong>, XYZ University, 2015-2019</li>
+        </ul>
+    </section>
 
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>BS in Computer Science</strong>, XYZ University, 2015-2019</li>
-                </ul>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
+            <p>Developed and maintained web applications using React.js, Node.js, and other modern technologies.</p>
+            <li><strong>Junior Web Developer</strong> - XYZ Corp (2019-2020)</li>
+            <p>Assisted with front-end development, improving user interfaces and implementing new features.</p>
+        </ul>
+    </section>
 
-                <h2>Contact Me</h2>
-                <form id="contact-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" required>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
 
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
 
-                    <label for="message">Message:</label>
-                    <textarea id="message" required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
 
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; 2025 John Doe. All Rights Reserved.</p>
