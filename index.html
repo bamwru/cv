@@ -3,62 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>John Doe</h1>
-            <p>Web Developer</p>
-            <p>Email: john.doe@example.com | Phone: (123) 456-7890</p>
-        </header>
+    <header>
+        <h1>John Doe</h1>
+        <p>Web Developer</p>
+    </header>
 
-        <section class="summary">
-            <h2>Summary</h2>
-            <p>Detail-oriented web developer with 5+ years of experience in building responsive websites and applications. Proficient in HTML, CSS, JavaScript, and various frameworks.</p>
-        </section>
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <ul>
+            <li><strong>Email:</strong> johndoe@example.com</li>
+            <li><strong>Phone:</strong> (123) 456-7890</li>
+            <li><strong>Location:</strong> New York, USA</li>
+        </ul>
+    </section>
 
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="job">
-                <h3>Senior Web Developer</h3>
-                <p>Company ABC | 2020 - Present</p>
-                <ul>
-                    <li>Developed and maintained web applications using JavaScript frameworks.</li>
-                    <li>Collaborated with designers to create user-friendly interfaces.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Junior Web Developer</h3>
-                <p>Company XYZ | 2018 - 2020</p>
-                <ul>
-                    <li>Assisted in the development of responsive websites.</li>
-                    <li>Participated in code reviews and team meetings.</li>
-                </ul>
-            </div>
-        </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+        </ul>
+    </section>
 
-        <section class="education">
-            <h2>Education</h2>
-            <p>Bachelor of Science in Computer Science</p>
-            <p>University of Example | 2014 - 2018</p>
-        </section>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>BS in Computer Science</strong>, XYZ University, 2015-2019</li>
+        </ul>
+    </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Angular, Vue.js</li>
-                <li>Node.js, Express</li>
-                <li>Responsive Design</li>
-            </ul>
-        </section>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
+            <p>Developed and maintained web applications using React.js, Node.js, and other modern technologies.</p>
+            <li><strong>Junior Web Developer</strong> - XYZ Corp (2019-2020)</li>
+            <p>Assisted with front-end development, improving user interfaces and implementing new features.</p>
+        </ul>
+    </section>
 
-        <footer>
-            <p>© 2023 John Doe</p>
-        </footer>
-    </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 John Doe. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
